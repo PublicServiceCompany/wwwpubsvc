@@ -1,0 +1,178 @@
+/* Global Styles */
+
+html {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+body {
+  margin: 0px;
+}
+
+*, *:before, *:after {
+  font-family: inherit;
+  font-size: inherit;
+  box-sizing: inherit;
+}
+
+ul {
+  margin: 0px;
+  padding: 0px;
+  list-style-type: none;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+ul li a {
+  display: block;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+span {
+  margin: 0px;
+}
+
+hr {
+  border: none;
+  border-bottom: 1px solid white;
+}
+
+h2 {
+  font-size: 2.6em;
+}
+
+input, select, textarea {
+  width: 200px;
+}
+
+* {
+    box-sizing: border-box; /* Include padding and margin in width/height */
+    font-stretch: extra-condensed;
+  }
+  
+  body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: larger;
+    line-height: 1.6; /* Adjust line height */
+    background-color: black; /* Global background color */
+    color: #FFFFFF;
+  }
+  
+  /* Header Styles */
+  
+  .header-container {
+    margin: 0px;
+    padding: 0px;
+    border-collapse: collapse;
+  }
+  
+  .header-image {
+    width: 100%;
+    float: center;
+  }
+  
+  .header-title {
+    font-size: 4em;
+    line-height: .9em;
+    font-weight: bold;
+    text-align: center;
+    font-family: monospace;
+  }
+  
+  /* Content Styles */
+  
+  .content-container {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  .content-image {
+    width: 100%;
+    align-self: center;
+    border-bottom: none; /* Remove default image border */
+  }
+  
+  .content-text {
+    display: inline-block;
+    width: 80%; /* Adjust text box size */
+    background-color: none; /* Content background color */
+    border-collapse: collapse;
+    text-align: left;
+  }
+  
+  /* Table Styles */
+  
+  .table-container {
+    width: auto;
+    margin: none;
+    border-collapse: collapse;
+  }
+  
+  .table-header {
+    background-color: black; /* Set header background color */
+    text-align: center;
+    border-collapse: collapse;
+    line-height: 1.6em;
+  }
+  
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    line-height: .8em;
+  }
+  
+  th {
+    padding: 40px;
+  }
+  
+  td {
+    text-align: center;
+    border-collapse: collapse;
+  }
+
+  .borderCell tr > td {
+    border-bottom: 1px solid white; /* Add bottom border to table cells */
+  }
+  
+  .navCell {
+    display: block;
+    padding: 10px;
+    font-size: 1.6em;
+    line-height: 4em;
+  }
+  
+  .navCell:hover {
+    background-color: white;
+    color: #000000;
+  }
+
+  /* Footer Styles */
+  
+  .footer-container {
+    max-width: 800px;
+    margin: auto;
+    padding: 0px 0px 70px 0px;
+    float: center;
+    text-align: center;
+    font-style: italic;
+  }
+  
+  .footer-image {
+    width: 150px;
+    float: center;
+  }
+
+  iframe {
+    background-color: #c7c7c7;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 2em;
+  }
