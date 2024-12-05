@@ -186,3 +186,15 @@ input, select, textarea {
     height: 1000px;
     width: 100%;
   }
+
+/* Basic styles for container */
+.video-container {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.player {
+  align-self: center;
+  width: 80%; 
+}
