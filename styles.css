@@ -26,7 +26,7 @@ p {
 }
 
 h2 {
-  font-size: 3em;
+  font-size: 2em;
   font-family: Helvetica, 'Arial Narrow Bold', sans-serif;
   text-transform: uppercase;
 }
@@ -47,7 +47,7 @@ footer {
 /*  M E D I A  */
 
 .player {
-  width: 85%;
+  width: 50%;
   margin: auto;
 }
 
@@ -67,8 +67,9 @@ table {
 .navCell {
   display: block;
   padding: 10px;
-  font-size: 1.6em;
-  line-height: 3em;
+  font-size: 1em;
+  line-height: 2em;
+  font-weight: bold;
 }
 
 .navCell:hover {
